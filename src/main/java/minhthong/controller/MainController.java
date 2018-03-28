@@ -26,6 +26,13 @@ public class MainController {
 	public String login() {
 		return "login";
 	}
+	
+	@GetMapping("/logout")
+	public String logout(HttpServletRequest request) {
+		HttpSession session = request.getSession();// lay session hien tai
+		session.setAttribute("logged", false);
+		return "redirect:/";
+	}
 
 	@GetMapping("/checklogin")
 	public String checklogin(HttpServletRequest request) {

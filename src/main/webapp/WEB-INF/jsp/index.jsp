@@ -61,9 +61,10 @@
 								</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="/managepost"> Manage</a></li>
-								<li><a href="/newpost"> New post</a></li>
-								<li><a> Log out</a></li>
+								<li><a href="/managepost">Manage</a></li>
+								<li><a href="/newpost">New post</a></li>
+								<li><a href="/logout">Logout</a></li>
+								
 								<li><a href="/login"> <span
 										class="glyphicon glyphicon-user"></span> Login
 								</a></li>
@@ -81,8 +82,9 @@
 			<div class="container-fluid" id="content">
 				<!-- Left Collum -->
 				<div class="col-md-9 col-sm-10 col-xs-12" id="post">
-					<h1 id="post_title">Title</h1>
-					<p id="post_content">Nội dung bài viết dưới này</p>
+					<h1 id="post_title">Chào mừng bạn đến với website hội nghị
+						ICSSE</h1>
+					<p id="post_content">Nội dung bài viết trong trang chủ</p>
 				</div>
 
 				<!-- Right Collum -->
@@ -110,7 +112,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 </body>
 
